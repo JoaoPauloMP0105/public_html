@@ -8,14 +8,14 @@ $ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
 // check if is a mobile
 if ($iphone || $android || $palmpre || $ipod || $berry == true)
 {
-  header('Location: https://api.whatsapp.com/send?phone=5511971456442&text=Olá%20Preciso%20de%20um%20Orçamento!');
+  header('Location: https://api.whatsapp.com/send?phone=5511971456442&text=Olá%20deixe%20sua%20pergunta!');
   //OR
-  echo "<script>window.location='https://api.whatsapp.com/send?phone=5511971456442&text=Olá%20Preciso%20de%20um%20Orçamento!'</script>";
+  echo "<script>window.location='https://api.whatsapp.com/send?phone=5511971456442&text=Olá%20deixe%20sua%20pergunta!'</script>";
 }
 // all others
 else {
-  header('Location: https://web.whatsapp.com/send?phone=5511971456442&text=Olá%20Preciso%20de%20um%20Orçamento!');
+  header('Location: https://web.whatsapp.com/send?phone=5511971456442&text=Olá%20deixe%20sua%20pergunta!');
   //OR
-  echo "<script>window.location='https://web.whatsapp.com/send?phone=5511971456442&text=Olá%20Preciso%20de%20um%20Orçamento!'</script>";
+  echo "<script>window.location='https://web.whatsapp.com/send?phone=5511971456442&text=Olá%20deixe%20sua%20pergunta!'</script>";
 }
 ?>
