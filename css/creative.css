@@ -279,3 +279,31 @@ header.masthead {
         height: 100%;
       }  
     }
+    .button {
+      border:1px solid #25692A;
+      border-radius:4px;
+      display:inline-block;
+      cursor:pointer;
+      font-family:Verdana;
+      font-weight:bold;
+      font-size:17px;
+      padding:6px 60px;
+      text-decoration:none;
+      }       
+      .button-vm {
+      border-color:#f61f0e;
+      background:linear-gradient(to bottom, #fca8a1 5%, #f61f0e 100%);
+      box-shadow:inset 0px 1px 0px 0px #fff4f3;
+      color:#fff;
+      text-shadow:0px 1px 0px #528009; 
+      }
+         
+      .button-vm:hover {
+      background:linear-gradient(to bottom, #f61f0e 5%, #fca8a1 100%);
+      }
+      
+      .button:active {
+      position:relative;
+      top:2px;
+    }
+   
